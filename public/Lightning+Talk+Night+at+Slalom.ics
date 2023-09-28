@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Meetup//RemoteApi//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-ORIGINAL-URL:https://www.meetup.com/women-who-code-tokyo/events/2950222
+ 16/ical/Lightning+Talk+Night+at+Slalom.ics
+X-WR-CALNAME:Events - Lightning Talk Night at Slalom.ics
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+TZURL:http://tzurl.org/zoneinfo-outlook/Asia/Tokyo
+X-LIC-LOCATION:Asia/Tokyo
+BEGIN:STANDARD
+TZOFFSETFROM:+0900
+TZOFFSETTO:+0900
+TZNAME:JST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20230829T181033Z
+DTSTART;TZID=Asia/Tokyo:20230823T183000
+DTEND;TZID=Asia/Tokyo:20230823T203000
+STATUS:CONFIRMED
+SUMMARY:Lightning Talk Night at Slalom
+DESCRIPTION:Women Who Code Tokyo\nWednesday\, August 23 at 6:30 PM\n\nWe'
+ ll have a Lightning Talk event with speakers from our community. Present
+ ations will be in English. Space is limited\, so please update your RSVP
+  if ...\n\nhttps://www.meetup.com/women-who-code-tokyo/events/295022216/
+ 
+CLASS:PUBLIC
+CREATED:20230725T070517Z
+GEO:35.66;139.77
+LOCATION:Slalom株式会社 (Minato City\, Atago\, 2-chōme−5−１ MORIタワ 7F\, Tokyo\
+ , Japan 105-0002)
+URL:https://www.meetup.com/women-who-code-tokyo/events/295022216/
+LAST-MODIFIED:20230823T121825Z
+UID:event_295022216@meetup.com
+END:VEVENT
+END:VCALENDAR
