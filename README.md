@@ -4,7 +4,6 @@
 website for taxi driver made with **NextJs**   and **Tailwindcss**.
 
 
-
 ## Page Demo
 - Home Page.
 - Services
@@ -24,9 +23,3 @@ Distributed under the MIT License. See  [LICENSE](https:google.com)  for more in
 
 ## Contact
 Email Us: [smilepk145@gmail.com](mailto:smilepk145@gmail.com)
-
-
-
-# sky-cabs
-# sky-cabs
-# sky-cabs

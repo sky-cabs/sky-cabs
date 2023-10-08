@@ -14,20 +14,22 @@ const bookingHandler = async (req, res) => {
       } = req.body;
 
       // Create a transporter using Nodemailer
-      const transporter = nodemailer.createTransport({
+      const PPASSWORD = process.env.PASSWORD;
+      const transporter = nodemailer.
+      createTransport({
         host: 'smtp.forwardemail.net',
         port: 465,
         secure: true,
         auth: {
-          user: 'info@sky-cabs.com', // Replace with your email address
-          pass: 'Bava_1978', // Replace with your email password
+          user: 'info@sky-cabs.com', //  email address
+          pass: 'process.env.PASSWORD', //  email password
         },
       });
 
       // Create an email message
       const mailOptions = {
         from: 'info@sky_cabs.com', // Your email address
-        to: email, // Recipient's email address from the form input
+        to: email,  // Recipient's email address from the form input
         subject: `New Taxi Booking from ${name}`,
         text: `Details of your taxi booking:
           Name: ${name}

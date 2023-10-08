@@ -1,5 +1,5 @@
 {
-  "name": "taxi-company",
+  "name": "sky-cabs",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -59,7 +59,7 @@
         "plugin:prettier/recommended"
       ],
       "parserOptions": {
-        "ecmaVersion": 2020
+        "ecmaVersion": 2023
       },
       "rules": {
         "import/no-anonymous-default-export": "error"
