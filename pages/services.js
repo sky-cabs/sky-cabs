@@ -11,7 +11,7 @@ const Services = () => {
           }}
         > */}
         <div
-  className="bg-no-repeat h-96 bg-cover bg-center  md:h-120 sm:h-120 bg-contain sm:bg-auto md:bg-auto"
+  className="bg-no-repeat h-96 bg-cover bg-right  md:h-120 sm:h-120 bg-contain sm:bg-auto md:bg-auto"
   style={{
     backgroundImage: `url(/service.png)`,
   }}

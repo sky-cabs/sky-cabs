@@ -5,7 +5,7 @@ const ContentTwo = () => {
     <div>
       <div className="flex flex-col space-y-12 items-center justify-center bg-gray-50 w-full py-12">
         <div className="text-center space-y-3 ">
-          <p className="text-xl font-medium text-amber-600">WHAT WE OFFER</p>
+          <p className="text-xl font-medium text-amber-600"> OFFERS</p>
           <p className="text-4xl font-light text-gray-600">
            Taxi services based in Stirling central Belt of Scotland
           </p>
@@ -26,12 +26,12 @@ const ContentTwo = () => {
           <div
             className="col-span-2 row-span-1 bg-no-repeat bg-cover bg-center  h-64"
             style={{
-              backgroundImage: `url(/home.png)`,
+              backgroundImage: `url(/img58.jpg)`,
             }}
           >
             <div className="bg-black  hover:bg-opacity-5 bg-opacity-30 w-full h-full  flex items-end justify-start">
               <p className="text-white text-2xl font-medium p-8">
-                Parcel Delivery Services
+              Long-distance taxis
               </p>
             </div>
           </div>
@@ -67,7 +67,7 @@ const ContentTwo = () => {
           >
             <div className="bg-black  hover:bg-opacity-5 bg-opacity-30 w-full h-full  flex items-end justify-start">
               <p className="text-white text-2xl font-medium p-8">
-                Golf Tours
+                Sporting Events
               </p>
             </div>
           </div>

@@ -1,6 +1,7 @@
 import Header from "../components/header";
 import HomeScreen from "../screens/HomeScreen";
 import SectionService from "../components/sectionservice";
+import ServicesSection from "../components/ServicesSection";
 import SectionTwoHomePage from "../components/sectiontwohomepage";
 import SectionThereHomePage from "../components/sectiontherehomepage";
 import BookingScreen from '../screens/BookingScreen';
@@ -14,10 +15,14 @@ export default function Home() {
     <div>
       <Header /> 
       <HomeScreen />
+      <SectionService />
       <MenuButton />
+      <ServicesSection />
+      
       <SectionTwoHomePage />
       <SectionThereHomePage />
-      <SectionService />
+      
+     
       {/* <SectionOneHomePage /> */}
       {/* <BookingScreen /> */}
        {/* <BookingPage /> */}
