@@ -37,8 +37,8 @@ const HomeScreen = () => {
           <div className="flex justify-center lg:justify-start items-center my-2">
             <span className="text-red-400 text-xl font-bold">+44</span>
 
-            <a href="tel:+447809605387" className="text-red-500 text-4xl font-extrabold pl-2">
-              07809605387
+            <a href="tel:+44 1786 818284" className="text-red-500 text-4xl font-extrabold pl-2">
+              1786 818284
             </a>
           </div>
           <div className="flex my-5 md:my-5 flex-col md:flex-row justify-right  lg:justify-start">
