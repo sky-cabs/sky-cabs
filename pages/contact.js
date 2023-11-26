@@ -1,6 +1,6 @@
 // import MapSection from "../components/map";
 import Link from "next/link";
-import BookingForm from "../components/BookingForm";
+// import BookingForm from "../components/BookingForm";
 // import BookingScreen from '../screens/BookingScreen';
 // import ContactForm from "./api/ContactForm";
 import { useForm } from 'react-hook-form';
